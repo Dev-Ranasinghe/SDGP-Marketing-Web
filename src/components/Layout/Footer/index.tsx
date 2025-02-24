@@ -15,18 +15,18 @@ interface socialLinks {
 
 const socialLinks: socialLinks[] = [
   {
-    imgSrc: 'fa-brands:facebook-f',
-    link: 'www.facebook.com',
+    imgSrc: 'fa-brands:youtube',
+    link: 'https://www.youtube.com/@skillify-inc',
     width: 10
   },
   {
     imgSrc: 'fa6-brands:instagram',
-    link: 'www.instagram.com',
+    link: 'https://www.instagram.com/skillify.inc/',
     width: 14
   },
   {
-    imgSrc: 'fa6-brands:twitter',
-    link: 'www.twitter.com',
+    imgSrc: 'fa6-brands:linkedin',
+    link: 'https://www.linkedin.com/in/skillify-incorporation-548b35352/',
     width: 14
   },
 
@@ -86,7 +86,7 @@ const footer = () => {
           </div>
         </div>
         <div className='pt-12 pb-10 lg:flex items-center justify-between border-t border-t-white border-opacity-30'>
-          <h4 className='text-lg text-center md:text-start font-normal text-white opacity-60'>@2025.All rights reserved by Skillify</h4>
+          <h4 className='text-lg text-center md:text-start font-normal text-white opacity-60'>@2024.All rights reserved by Skillify</h4>
           <div className="flex gap-5 mt-6 md:mt-0 justify-center md:justify-start">
             <div className="h-5 bg-white opacity-60 w-0.5"></div>
           </div>
