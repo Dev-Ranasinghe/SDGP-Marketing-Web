@@ -9,22 +9,22 @@ export const featureData: {
   imgSrc: string;
   heading: string;
   paragraph: string;
-}[] = [
+}[] = 
+  [
     {
       imgSrc: "/images/features/time.svg",
-      heading: "Cash collection",
-      paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
+      heading: "Chatbot",
+      paragraph: 'Our intelligent chatbot assists users by answering queries and guiding them through the platform, ensuring a seamless experience.',
     },
     {
       imgSrc: "/images/features/signal.svg",
-      heading: "Insights",
-      paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
-
+      heading: "Job Seeker",
+      paragraph: 'Our job seeker feature scans your CV and matches you with the best job opportunities based on your skills and experience.',
     },
     {
       imgSrc: "/images/features/dollar.svg",
-      heading: "Payment",
-      paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
-
+      heading: "Salary Prediction",
+      paragraph: 'Using machine learning, our model predicts expected salaries for various roles, helping job seekers make informed career decisions.',
     }
   ]
+  

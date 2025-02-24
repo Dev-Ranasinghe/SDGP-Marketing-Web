@@ -20,7 +20,7 @@ const Features = () => {
                             <h3 className="text-2xl font-semibold text-black mt-5">{item.heading}</h3>
                             <h4 className='text-lg text-black/50 my-2'>{item.paragraph}</h4>
                             <Link href={'/'} className="text-primary hover:text-blue-700 text-xl font-medium flex items-center gap-2 pt-10 pb-2">
-                                Learn more
+                                Check out
                                 <Icon
                                     icon="tabler:arrow-right"
                                     className="text-2xl"
