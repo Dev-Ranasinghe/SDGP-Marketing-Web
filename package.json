@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@iconify/icons-ion": "^1.2.10",
     "@iconify/react": "^5.0.1",
     "aos": "^2.3.4",
@@ -21,6 +25,7 @@
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-fontawesome": "^1.7.1",
     "react-hot-toast": "^2.4.1",
     "react-slick": "^0.30.2",
     "remark": "^15.0.1",
@@ -32,6 +37,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-fontawesome": "^1.6.8",
     "@types/react-slick": "^0.23.13",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",

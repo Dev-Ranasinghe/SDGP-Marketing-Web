@@ -4,7 +4,7 @@ import People from "@/components/Home/People";
 import Features from "@/components/Home/Features";
 import Business from "@/components/Home/Business";
 import Payment from "@/components/Home/Payment";
-import Pricing from "@/components/Home/Pricing";
+import Team from "@/components/Home/Team";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Skillify",
@@ -18,7 +18,7 @@ export default function Home() {
       <Features />
       <Business />
       <Payment />
-      <Pricing />
+      <Team />
     </main>
   );
 }
