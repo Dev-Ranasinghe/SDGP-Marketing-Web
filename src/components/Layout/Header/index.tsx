@@ -56,9 +56,12 @@ const Header: React.FC = () => {
         sticky ? "shadow-lg bg-white py-4" : "shadow-none bg-header py-6"
       }`}
     >
-      <div className="lg:py-0 py-2">
-        <div className="container  mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4">
-          <Logo />
+      <div className="lg:py-0 py-2 ">
+        <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4 ">
+          <div className="">
+            <Logo />
+          </div>
+
           <nav className="relative right-20 hidden lg:flex flex-grow items-center gap-32 justify-center md:ml-20">
             {headerData.map((item, index) => (
               <HeaderLink key={index} item={item} />

@@ -31,18 +31,6 @@ const socialLinks: socialLinks[] = [
   },
 ];
 
-const links: links[] = [
-  {
-    link: "Product",
-  },
-  {
-    link: "Pricing",
-  },
-  {
-    link: "Features",
-  },
-];
-
 const footer = () => {
   return (
     <div className="bg-[#0c151a]">
@@ -59,20 +47,7 @@ const footer = () => {
               />
             </div>
           </div>
-          <div className="sm:col-span-6 lg:col-span-5 flex items-center">
-            <div className="flex gap-4">
-              {links.map((items, i) => (
-                <div key={i}>
-                  <Link
-                    href="/"
-                    className="text-lg font-normal text-white flex items-center justify-center"
-                  >
-                    {items.link}
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
+          <div className="sm:col-span-6 lg:col-span-5 flex items-center"></div>
           <div className="sm:col-span-6 lg:col-span-4">
             <div className="flex gap-4 lg:justify-end">
               {socialLinks.map((items, i) => (
