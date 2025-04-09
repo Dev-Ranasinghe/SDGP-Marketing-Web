@@ -6,48 +6,42 @@ const developers = [
   {
     name: "Chamodya Chirath",
     role: "Product Manager & Full stack Developer",
-    image:
-      "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    image: "/images/team/chirath.jpg",
     linkedIn: "https://www.linkedin.com/in/chirath-abeymanna-990700292",
     instagram: "#!",
   },
   {
     name: "Devmina Ranasinghe",
-    role: "Frontend Developer",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f8f8d6e8b4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    role: "Mchine Learning Engineer & Full stack Developer",
+    image: "/images/team/Devmina.jpg",
     linkedIn: "#!",
     instagram: "#!",
   },
   {
     name: "Renal Perera",
-    role: "Frontend Developer",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f8f8d6e8b4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    role: "Full stack Developer & QA Engineer",
+    image: "/images/team/Renal.jpg",
     linkedIn: "#!",
     instagram: "#!",
   },
   {
     name: "Sehansa Dilsadi",
-    role: "Frontend Developer",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f8f8d6e8b4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    role: "Frontend Developer & UI/UX Designer",
+    image: "/images/team/Sehansa.jpg",
     linkedIn: "#!",
     instagram: "#!",
   },
   {
     name: "Onel Silva",
-    role: "Frontend Developer",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f8f8d6e8b4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    role: "Full Stack Developer & Database Administrator",
+    image: "/images/team/onel.jpg",
     linkedIn: "",
     instagram: "#!",
   },
   {
     name: "Nadini Salisha",
-    role: "Frontend Developer",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f8f8d6e8b4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+    role: "Frontend Developer & Technical Writer",
+    image: "/images/team/nadini.jpg",
     linkedIn: "#!",
     instagram: "#!",
   },
@@ -67,7 +61,7 @@ const ProfileCard = () => {
           >
             <figure className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-sky-500 before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-sky-500 before:-z-[1] group-hover:before:scale-[2.5] motion-safe:before:transition-all motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400">
               <img
-                className="rounded-full block max-w-full bg-sky-500 object-cover z-10 relative"
+                className="rounded-[50%] w-[10rem] h-[10rem] block bg-sky-500 object-cover z-10 relative"
                 src={developer.image}
                 alt="Avatar"
               />
