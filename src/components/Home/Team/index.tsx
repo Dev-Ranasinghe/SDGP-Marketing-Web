@@ -27,7 +27,7 @@ const developers = [
   {
     name: "Sehansa Dilsadi",
     role: "Frontend Developer & UI/UX Designer",
-    image: "/images/team/Sehansa.jpg",
+    image: "/images/team/sehansa.jpg",
     linkedIn: "#!",
     instagram: "#!",
   },
